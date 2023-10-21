@@ -68,6 +68,7 @@ export default function UpdateProfile() {
               src={session.data?.user.avatar_url}
               referrerPolicy="no-referrer"
               alt={session.data?.user.name}
+              mode="dark"
             />
           </label>
 
